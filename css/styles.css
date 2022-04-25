@@ -1,0 +1,49 @@
+.bg-verde {
+  background-color: #B7F8CE; }
+
+.animate__animated.animate__fadeInLeft {
+  animation-duration: 2s; }
+
+.animate__animated.animate__shakeX {
+  animation-duration: 3s;
+  animation-delay: 0.9s; }
+
+body {
+  background-image: url("../images/wallpaper.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Manrope", sans-serif;
+  color: #000000; }
+
+.mt-10 {
+  margin-top: 130px; }
+
+header div div p {
+  color: #7ba48a; }
+
+header div nav div div ul li {
+  letter-spacing: 1px; }
+  header div nav div div ul li a {
+    background-color: #ffffff; }
+    header div nav div div ul li a:hover {
+      font-size: large; }
+
+.navbar {
+  position: fixed;
+  z-index: 2; }
+
+footer section div a .icon_flotante {
+  position: fixed;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  bottom: 50px;
+  right: 50px; }
+
+main section div h5 {
+  margin-bottom: 5%;
+  word-spacing: 5px; }
+
+main section div h3 {
+  text-transform: uppercase;
+  margin-bottom: 5%; }

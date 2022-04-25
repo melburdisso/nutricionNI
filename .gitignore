@@ -1,0 +1,7 @@
+# Ignora la carpeta node_modules
+node_modules
+*misestilos.css
+# Ignora todos los archivos de texto
+*.txt
+# Ignora archivos de configuración SASS
+.sass-cache
