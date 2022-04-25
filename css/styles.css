@@ -8,6 +8,59 @@
   animation-duration: 3s;
   animation-delay: 0.9s; }
 
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.background, .background-title, .background-section {
+  border: 1px black;
+  opacity: 70%;
+  margin: 10px;
+  text-decoration: none; }
+
+.background-title {
+  border-radius: 20px;
+  background-color: #B7F8CE; }
+
+.background-section {
+  color: #1C4C96;
+  background-color: #E5F8EC;
+  border-radius: 20px; }
+
+.red-facebook {
+  background: transparent;
+  opacity: 80%; }
+
+.red-facebook:hover {
+  background: #1C4C96;
+  border-radius: 6px;
+  border: solid 1px black; }
+
+.red-instagram {
+  background: transparent; }
+
+.red-instagram:hover {
+  background: #8134AF;
+  border-radius: 6px;
+  border: solid 1px black; }
+
+.red-ubicacion {
+  background: transparent; }
+
+.red-ubicacion:hover {
+  background: #F58529;
+  border-radius: 6px;
+  border: solid 1px black; }
+
+.red-email {
+  background: transparent; }
+
+.red-email:hover {
+  background: #FEDA77;
+  border-radius: 6px;
+  border: solid 1px black; }
+
 body {
   background-image: url("../images/wallpaper.png");
   background-repeat: no-repeat;

@@ -2,12 +2,86 @@
 @import "typography";
 @import "animation";
 
-// -------------------------------------------------------------GENERAL
+// mixin
 @mixin reset-list {
     margin: 0;
     padding: 0;
     list-style: none;
-  }
+}
+*{
+    @include reset-list();
+}
+
+// extend
+.background {
+    border: 1px black;
+    opacity: 70%;
+    margin: 10px;
+    text-decoration: none;
+}
+.background-title{
+    @extend .background;
+    border-radius: 20px;
+    background-color: $green_color
+}
+.background-section {
+    @extend .background;
+    color: $color_indigo;
+    background-color: $lightgreen_color;
+    border-radius: 20px;
+}
+
+// ------------------------------------------------------------ mapa
+$redes: (
+	facebook: #51aff8,
+	instagram: #a32993,
+    ubicacion: red,
+    email: green
+);
+
+.red-facebook {
+    background: transparent;
+    opacity: 80%;
+}
+.red-facebook:hover {
+    background: $facebook;
+    border-radius: 6px;
+    border: solid 1px black;
+}
+
+.red-instagram {
+    background: transparent;
+}
+.red-instagram:hover {
+    background: $instagram;
+    border-radius: 6px;
+    border: solid 1px black;
+}
+
+.red-ubicacion {
+    background: transparent;
+}
+.red-ubicacion:hover {
+    background: $ubicacion;
+    border-radius: 6px;
+    border: solid 1px black;
+}
+
+.red-email {
+    background: transparent;
+}
+.red-email:hover {
+    background: $email;
+    border-radius: 6px;
+    border: solid 1px black;
+}
+
+
+
+
+
+// -------------------------------------------------------------GENERAL
+
 body{
     background-image: url("../images/wallpaper.png");
     background-repeat: no-repeat;
@@ -73,7 +147,6 @@ footer{
         }
     }
 }
-<<<<<<< HEAD
 // sobremi.html
 main{
     section{
@@ -89,9 +162,6 @@ main{
         }
     }
 }
-=======
 // inicio
 $fondo: black;
 $color: violet;
-
->>>>>>> sass
